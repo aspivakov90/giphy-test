@@ -1,0 +1,22 @@
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .image-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+
+        img {
+
+            display: inline-block;
+            flex-grow: 1;
+            width: calc(100% * (1/4));
+            max-width: calc(100% * (1/4));
+        }
+    }
+}
